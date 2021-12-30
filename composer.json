@@ -17,8 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Modules\\attribute\\": "Modules/attribute/",
-            "Sunil\\Laravelmonorepo\\": "src/"
+            "Modules\\attribute\\": "Modules/attribute/"
         }
     },
     "replace": {
