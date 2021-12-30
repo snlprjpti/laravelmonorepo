@@ -13,9 +13,22 @@ return static function (ContainerConfigurator $containerConfigurator): void {
         // default value
         __DIR__ . '/Modules',
     ]);
+    // what extra parts to add after merge?
     $parameters->set(Option::DATA_TO_APPEND, [
+        ComposerJsonSection::AUTOLOAD_DEV => [
+            'psr-4' => [
+                'Symplify\Tests\\' => 'tests',
+            ],
+        ],
         ComposerJsonSection::REQUIRE_DEV => [
-            'phpunit/phpunit' => '^9.5',
+            'phpstan/phpstan' => '^0.12',
+        ],
+    ]);
+
+    $parameters->set(Option::DATA_TO_REMOVE, [
+        ComposerJsonSection::REQUIRE => [
+            // the line is removed by key, so version is irrelevant, thus *
+            'phpunit/phpunit' => '*',
         ],
     ]);
 };
