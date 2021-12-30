@@ -1,0 +1,15 @@
+{
+    "name": "sunil/laravelmonorepo",
+    "autoload": {
+        "psr-4": {
+            "Sunil\\Laravelmonorepo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sunil Prajapati",
+            "email": "sunil.prajapati@hazesoft.co"
+        }
+    ],
+    "require": {}
+}
