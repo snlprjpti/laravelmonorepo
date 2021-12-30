@@ -1,15 +1,25 @@
 {
     "name": "sunil/laravelmonorepo",
-    "autoload": {
-        "psr-4": {
-            "Sunil\\Laravelmonorepo\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Sunil Prajapati",
             "email": "sunil.prajapati@hazesoft.co"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.0.8",
+        "symplify/monorepo-builder": "^10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sunil\\Laravelmonorepo\\": "src/",
+            "YourMonorepo\\FirstPackage\\": "Modules/attribute/"
+        }
+    },
+    "replace": {
+        "snlprjti/first-package": "self.version"
+    }
 }
