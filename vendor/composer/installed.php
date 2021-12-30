@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'd56dcba679aa9516c3029652ef0ab1bee00320ba',
+        'reference' => 'c7982ddcf0042c6ab0f2216049264bc5814e82d1',
         'name' => 'snlprjti/laravelmonorepo',
         'dev' => true,
     ),
@@ -337,7 +337,7 @@
             'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
             'dev_requirement' => true,
         ),
-        'snlprjti/first-package' => array(
+        'snlprjti/attribute' => array(
             'dev_requirement' => false,
             'replaced' => array(
                 0 => 'dev-main',
@@ -349,7 +349,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'd56dcba679aa9516c3029652ef0ab1bee00320ba',
+            'reference' => 'c7982ddcf0042c6ab0f2216049264bc5814e82d1',
             'dev_requirement' => false,
         ),
         'symfony/dependency-injection' => array(

@@ -8,6 +8,7 @@
     ],
     "require": {
         "php": "^8.0.8",
+        "ext-intl": "*",
         "symfony/dependency-injection": "^5.0",
         "symfony/http-kernel": "^5.0",
         "symplify/monorepo-builder": "^10.0"
@@ -22,5 +23,12 @@
     },
     "replace": {
         "snlprjti/attribute": "self.version"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
     }
 }
