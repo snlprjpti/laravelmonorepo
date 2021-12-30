@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'c7982ddcf0042c6ab0f2216049264bc5814e82d1',
+        'reference' => 'd88452c127e591f0672dce8d1d05bc4c7679df32',
         'name' => 'snlprjti/laravelmonorepo',
         'dev' => true,
     ),
@@ -92,6 +92,15 @@
             'install_path' => __DIR__ . '/../phpspec/prophecy',
             'aliases' => array(),
             'reference' => 'bbcd7380b0ebf3961ee21409db7b38bc31d69a13',
+            'dev_requirement' => true,
+        ),
+        'phpstan/phpstan' => array(
+            'pretty_version' => '0.12.99',
+            'version' => '0.12.99.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpstan/phpstan',
+            'aliases' => array(),
+            'reference' => 'b4d40f1d759942f523be267a1bab6884f46ca3f7',
             'dev_requirement' => true,
         ),
         'phpunit/php-code-coverage' => array(
@@ -349,7 +358,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'c7982ddcf0042c6ab0f2216049264bc5814e82d1',
+            'reference' => 'd88452c127e591f0672dce8d1d05bc4c7679df32',
             'dev_requirement' => false,
         ),
         'symfony/dependency-injection' => array(
@@ -497,7 +506,7 @@
             'install_path' => __DIR__ . '/../symplify/monorepo-builder',
             'aliases' => array(),
             'reference' => 'f2c925f6bc521fcb30a2a52663393a76a62b34f9',
-            'dev_requirement' => false,
+            'dev_requirement' => true,
         ),
         'theseer/tokenizer' => array(
             'pretty_version' => '1.2.1',

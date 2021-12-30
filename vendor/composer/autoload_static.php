@@ -7,6 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit2c5194c3666593bd7c15f0fc15205d66
 {
     public static $files = array (
+        '9b38cf48e83f5d8f60375221cd213eee' => __DIR__ . '/..' . '/phpstan/phpstan/bootstrap.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -29,6 +30,7 @@ class ComposerStaticInit2c5194c3666593bd7c15f0fc15205d66
         ),
         'S' => 
         array (
+            'Symplify\\Tests\\' => 15,
             'Symfony\\Polyfill\\Php81\\' => 23,
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Php73\\' => 23,
@@ -72,6 +74,10 @@ class ComposerStaticInit2c5194c3666593bd7c15f0fc15205d66
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Symplify\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
         ),
         'Symfony\\Polyfill\\Php81\\' => 
         array (
