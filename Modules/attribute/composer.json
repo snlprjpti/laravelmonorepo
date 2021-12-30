@@ -1,11 +1,11 @@
 {
-  "name": "snlprjti/first-package",
+  "name": "snlprjti/attribute",
   "require": {
     "php": "^8.0.8"
   },
   "autoload": {
     "psr-4": {
-      "Modules\\Attribute\\": ""
+      "Modules\\attribute\\": ""
     }
   }
 }

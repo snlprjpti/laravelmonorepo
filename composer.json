@@ -17,11 +17,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Modules\\Attribute\\": "Modules/attribute/",
+            "Modules\\attribute\\": "Modules/attribute/",
             "Sunil\\Laravelmonorepo\\": "src/"
         }
     },
     "replace": {
-        "snlprjti/first-package": "self.version"
+        "snlprjti/attribute": "self.version"
     }
 }
