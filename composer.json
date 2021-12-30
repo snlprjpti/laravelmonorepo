@@ -8,15 +8,16 @@
     ],
     "require": {
         "php": "^8.0.8",
-        "symplify/monorepo-builder": "^10.0",
         "symfony/dependency-injection": "^5.0",
-        "symfony/http-kernel": "^5.0"
+        "symfony/http-kernel": "^5.0",
+        "symplify/monorepo-builder": "^10.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
+            "Modules\\Attribute\\": "Modules/attribute/",
             "Sunil\\Laravelmonorepo\\": "src/"
         }
     },

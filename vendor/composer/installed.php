@@ -5,8 +5,8 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'bf337972d5dae756b598049483509d2631607cb1',
-        'name' => 'sunil/laravelmonorepo',
+        'reference' => 'd56dcba679aa9516c3029652ef0ab1bee00320ba',
+        'name' => 'snlprjti/laravelmonorepo',
         'dev' => true,
     ),
     'versions' => array(
@@ -343,13 +343,13 @@
                 0 => 'dev-main',
             ),
         ),
-        'sunil/laravelmonorepo' => array(
+        'snlprjti/laravelmonorepo' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'bf337972d5dae756b598049483509d2631607cb1',
+            'reference' => 'd56dcba679aa9516c3029652ef0ab1bee00320ba',
             'dev_requirement' => false,
         ),
         'symfony/dependency-injection' => array(
